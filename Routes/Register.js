@@ -126,6 +126,8 @@ app.post("/profile-info", async (req, res) => {
     internshipEnd,
     internshipStatus,
   } = req.body;
+
+  console.log(domain)
   try {
     // Extract token from headers
     const token = req.headers.authorization?.split(" ")[1];
@@ -146,14 +148,24 @@ app.post("/profile-info", async (req, res) => {
       }
 
       // Extract form data from request body
-     
+     const existingStudent = await Register.findOne({
+  studentId,
+  _id: { $ne: user._id }, // NOT the same user
+});
+
+if (existingStudent) {
+  return res.status(400).json({
+    success: false,
+    error: "Student ID already assigned to another user",
+  });
+}
 
       // Update user details in the database
       user.name = name
       user.email = email
       user.domain = domain
       user.project = role
-      user.studentId = studentId
+     user.studentId = studentId;
       user.dob = dob
       user.university = university
       user.linkedin = linkedin

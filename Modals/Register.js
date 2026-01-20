@@ -7,7 +7,7 @@ const registerSchema = new mongoose.Schema({
   domain: {
     type: String,
     trim: true,
-    enum: ["mern-stack", "cyber-security", "data-analysis", "python", "ai-ml", "full-stack", "app-development"]
+    enum: ["mern-stack", "cyber-security", "data-analysis", "python", "ai-ml", "full-stack", "app-development", 'data-science'],
   },
   dob: { type: String, trim: true },
   internshipStartDate: { type: String, trim: true },
