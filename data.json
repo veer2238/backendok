@@ -3,190 +3,86 @@
         "id": 1,
         "domain": "mern-stack",
         "resources": [
-            {
-                "name": "HTML",
-                "link": "https://v-extechsolution.in/learning/html/intro"
-            },
-            {
-                "name": "CSS",
-                "link": "https://v-extechsolution.in/learning/css/intro"
-            },
-            {
-                "name": "CSS-ADVANCE",
-                "link": "https://v-extechsolution.in/learning/css-advance/intro"
-            },
-            {
-                "name": "JavaScript",
-                "link": "https://v-extechsolution.in/learning/javascript/intro"
-            },
-            {
-                "name": "React",
-                "link": "https://v-extechsolution.in/learning/reactjs/intro"
-            },
-            {
-                "name": "Node + Express + Mongodb",
-                "link": "https://v-extechsolution.in/learning/express-js/intro"
-            }
-           
+        
+            { "name": "React", "link": "https://v-extechsolution.in/learning/reactjs/intro" },
+            { "name": "Node + Express + MongoDB", "link": "https://v-extechsolution.in/learning/express-js/intro" }
         ]
     },
     {
         "id": 2,
-        "domain": "data-analysis",
+        "domain": "cyber-security",
         "resources": [
-            {
-                "name": "Python Basics",
-                "link": "https://v-extechsolution.in/learning/python/intro"
-            },
-            {
-                "name": "SQL",
-                "link": "https://v-extechsolution.in/learning/sql/intro"
-            },
-            {
-                "name": "Excel",
-                "link": "https://v-extechsolution.in/learning/excel/intro"
-            },
-            {
-                "name": "Data Visualization (Matplotlib & Seaborn)",
-                "link": "https://v-extechsolution.in/learning/data-analysis/visualization"
-            },
-            {
-                "name": "Pandas & NumPy",
-                "link": "https://v-extechsolution.in/learning/data-analysis/pandas-numpy"
-            },
-            {
-                "name": "Power BI",
-                "link": "https://publuu.com/flip-book/780619/1728001"
-            },
-            {
-                "name": "Data Analysis Project",
-                "link": "https://v-extechsolution.in/learning/data-analysis/project"
-            }
+            { "name": "Introduction to Cybersecurity", "link": "https://v-extechsolution.in/learning/cyber-security/intro" },
+            { "name": "Python Basics", "link": "https://v-extechsolution.in/learning/python/intro" }
+         
         ]
     },
     {
         "id": 3,
-        "domain": "python",
+        "domain": "data-analysis",
         "resources": [
-            {
-                "name": "Python Basics",
-                "link": "https://v-extechsolution.in/learning/python/intro"
-            },
-            {
-                "name": "Object-Oriented Programming",
-                "link": "https://v-extechsolution.in/learning/python/oop"
-            },
-            {
-                "name": "Modules and Packages",
-                "link": "https://v-extechsolution.in/learning/python/modules"
-            },
-            {
-                "name": "File Handling",
-                "link": "https://v-extechsolution.in/learning/python/file-handling"
-            },
-            {
-                "name": "Decorators",
-                "link": "https://v-extechsolution.in/learning/python/decorators"
-            },
-            {
-                "name": "Generators",
-                "link": "https://v-extechsolution.in/learning/python/generators"
-            },
-            {
-                "name": "Advanced Data Structures",
-                "link": "https://v-extechsolution.in/learning/python/data-structures"
-            },
-            {
-                "name": "Python Project",
-                "link": "https://v-extechsolution.in/learning/python/project"
-            }
+            { "name": "Python Basics", "link": "https://v-extechsolution.in/learning/python/intro" },
+            { "name": "SQL", "link": "https://v-extechsolution.in/learning/sql/intro" },
+            { "name": "Excel", "link": "https://v-extechsolution.in/learning/excel/intro" },
+            { "name": "Pandas", "link": "https://v-extechsolution.in/learning/pandas/intro" },
+            { "name": "Numpy", "link": "https://v-extechsolution.in/learning/numpy/intro" }
+ 
         ]
     },
     {
         "id": 4,
-        "domain": "cyber-security",
+        "domain": "python",
         "resources": [
-            {
-                "name": "Introduction to Cybersecurity",
-                "link": "https://v-extechsolution.in/learning/cyber-security/intro"
-            },
-            {
-                "name": "Network Security",
-                "link": "https://v-extechsolution.in/learning/cyber-security/cyber-dark-web"
-            },
-            {
-                "name": "Ethical Hacking",
-                "link": "https://v-extechsolution.in/learning/cyber-security/cyber-network"
-            },
-            {
-                "name": "Penetration Testing",
-                "link": "https://v-extechsolution.in/learning/cyber-security/text-encryption"
-            },
-            {
-                "name": "Cyber Security Project",
-                "link": "https://v-extechsolution.in/learning/cyber-security/cyber%20tools"
-            }
+            { "name": "Python Basics", "link": "https://v-extechsolution.in/learning/python/intro" }
         ]
     },
     {
         "id": 5,
         "domain": "ai-ml",
         "resources": [
-            {
-                "name": "Machine Learning Basics",
-                "link": "https://v-extechsolution.in/learning/ai-ml/ml-basics"
-            },
-            {
-                "name": "Deep Learning",
-                "link": "https://v-extechsolution.in/learning/ai-ml/deep-learning"
-            },
-            {
-                "name": "Natural Language Processing",
-                "link": "https://v-extechsolution.in/learning/ai-ml/nlp"
-            },
-            {
-                "name": "AI Frameworks (TensorFlow & PyTorch)",
-                "link": "https://v-extechsolution.in/learning/ai-ml/frameworks"
-            },
-            {
-                "name": "AI/ML Project",
-                "link": "https://v-extechsolution.in/learning/ai-ml/project"
-            }
+               { "name": "Python Basics", "link": "https://v-extechsolution.in/learning/python/intro" },
+          
+           { "name": "Pandas", "link": "https://v-extechsolution.in/learning/pandas/intro" },
+            { "name": "Numpy", "link": "https://v-extechsolution.in/learning/numpy/intro" },
+              { "name": "Machine Learning Basics", "link": "https://v-extechsolution.in/learning/scikit-learn/intro" },
+            { "name": "Deep Learning", "link": "https://v-extechsolution.in/learning/computer-vision/intro" },
+             { "name": "streamlit", "link": "https://v-extechsolution.in/learning/streamlit/intro" }
+
         ]
     },
     {
         "id": 6,
         "domain": "full-stack",
         "resources": [
-            {
-                "name": "HTML",
-                "link": "https://v-extechsolution.in/learning/html/intro"
-            },
-            {
-                "name": "CSS",
-                "link": "https://v-extechsolution.in/learning/css/intro"
-            },
-            {
-                "name": "JavaScript (ES6+)",
-                "link": "https://v-extechsolution.in/learning/javascript/intro"
-            },
-            {
-                "name": "Frontend Framework (React.js)",
-                "link": "https://v-extechsolution.in/learning/reactjs/intro"
-            },
-            {
-                "name": "Backend Development (Node.js & Express.js)",
-                "link": "https://v-extechsolution.in/learning/express-js/intro"
-            },
-          
-            {
-                "name": "Cloud Deployment (AWS, Firebase, Heroku)",
-                "link": "https://v-extechsolution.in/learning/cloud-deployment/intro"
-            },
-            {
-                "name": "Full Stack Project",
-                "link": "https://v-extechsolution.in/learning/fullstack/project"
-            }
+              { "name": "HTML", "link": "https://v-extechsolution.in/learning/html/intro" },
+            { "name": "CSS", "link": "https://v-extechsolution.in/learning/css/intro" },
+            { "name": "CSS-ADVANCE", "link": "https://v-extechsolution.in/learning/css-advance/intro" },
+            { "name": "JavaScript", "link": "https://v-extechsolution.in/learning/javascript/intro" },
+            { "name": "React.js", "link": "https://v-extechsolution.in/learning/reactjs/intro" },
+            { "name": "Node.js & Express.js", "link": "https://v-extechsolution.in/learning/express-js/intro" }
+
+        ]
+    },
+    {
+        "id": 7,
+        "domain": "app-development",
+        "resources": [
+           
+            { "name": "React Native", "link": "https://v-extechsolution.in/learning/react-native/intro" }
+            
+        ]
+    },
+    {
+        "id": 8,
+        "domain": "data-science",
+        "resources": [
+            { "name": "Python for Data Science", "link": "https://v-extechsolution.in/learning/python/intro" },
+            
+             { "name": "Statistics & Probability", "link": "https://v-extechsolution.in/learning/pandas/intro" },
+            { "name": "Numpy", "link": "https://v-extechsolution.in/learning/numpy/intro" },
+              { "name": "Machine Learning Basics", "link": "https://v-extechsolution.in/learning/scikit-learn/intro" },
+            { "name": "Deep Learning", "link": "https://v-extechsolution.in/learning/computer-vision/intro" },
+             { "name": "streamlit", "link": "https://v-extechsolution.in/learning/streamlit/intro" }
         ]
     }
 ]
