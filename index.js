@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url';
 
 // Import routes
 import Registerb from './Routes/Register.js';
+import Attendanceroute from './Routes/Attendance.js'
 import Loginb from './Routes/Login.js';
 import Workb from './Routes/Work.js';
 import Learning from './Routes/Api.js';
@@ -29,8 +30,11 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
+  
+
 // Route mounting
 app.use('/', Registerb);
+app.use('/',Attendanceroute)
 app.use('/', Learning);
 app.use('/', Loginb);
 app.use('/', Workb);
